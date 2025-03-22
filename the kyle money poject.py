@@ -113,12 +113,12 @@ def play_game():
         answer = input("Your answer (A/B/C/D): ").strip().upper()
         
         if q['answer'] is None:
-            print("Unlucky!")
+            print("Unlucky! skill issue get better!")
         elif answer == q['answer']:
-            print("✅ Correct!")
+            print("✅ Correct! lucky one bet u wont get it next time")
             score += 1
         else:
-            print("❌ Wrong!")
+            print("❌ Wrong! skill issue")
 
     print("\nGame Over!")
     print(f"Score: {score}/20")
