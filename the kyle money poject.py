@@ -2,7 +2,7 @@ from openai import OpenAI
 import time
 
 # OPENAI Client setup
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 
 def get_gpt_message(prompt):
     try:
