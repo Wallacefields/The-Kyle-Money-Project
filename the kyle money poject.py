@@ -113,7 +113,7 @@ def play_game():
         answer = input("Your answer (A/B/C/D): ").strip().upper()
         
         if q['answer'] is None:
-            print("😈 This question was rigged. No correct answer!")
+            print("Unlucky!")
         elif answer == q['answer']:
             print("✅ Correct!")
             score += 1
